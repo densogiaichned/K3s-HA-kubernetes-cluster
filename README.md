@@ -208,10 +208,10 @@ Using:
   ```sh
   ping k3s-vip.local
 
-  PING k3s-vip.local (10.0.100.99) 56(84) bytes of data.
-  64 bytes from k3s-vip.local (10.0.100.99): icmp_seq=1 ttl=64 time=0.024 ms
-  64 bytes from k3s-vip.local (10.0.100.99): icmp_seq=2 ttl=64 time=0.030 ms
-  64 bytes from k3s-vip.local (10.0.100.99): icmp_seq=3 ttl=64 time=0.059 ms
+  PING k3s-vip.local (10.0.0.99) 56(84) bytes of data.
+  64 bytes from k3s-vip.local (10.0.0.99): icmp_seq=1 ttl=64 time=0.024 ms
+  64 bytes from k3s-vip.local (10.0.0.99): icmp_seq=2 ttl=64 time=0.030 ms
+  64 bytes from k3s-vip.local (10.0.0.99): icmp_seq=3 ttl=64 time=0.059 ms
   ```
 
 - Exit ssh, switch back to your development machine.
